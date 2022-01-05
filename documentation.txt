@@ -1,0 +1,9 @@
+DOCUMENTATION
+Object types:
+  int
+  text
+  bool
+  any
+Object init:
+  [object type] [variable name]
+  [object type] [variable name] = [variable value]
