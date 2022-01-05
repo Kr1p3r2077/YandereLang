@@ -1,1 +1,2 @@
-
+#invite /IO/
+print: "Hello, World!"
