@@ -1,4 +1,5 @@
-DOCUMENTATION
+///---DOCUMENTATION---///
+
 Library adding:
   #invite /[library name]/
   
@@ -37,9 +38,16 @@ Logic operators:  //indev
   if( condition ) {
     // what to do //
   }
+  
+
+///---LIBRARIES---///
+
 
 IO library:
   read: [variable name] [variable name] [variable name]... x? //reading any count of variable from console
-  print: [variable name] [text] [number]... x?  //printing any values on console
-  printL: [variable name] [text] [number]... x?  //printing any values on console and '\n' across all of the values
-  printS: [variable name] [text] [number]... x?  //printing any values on console and ' ' across all of the values
+  print: [variable name] [text] [number] [format token]... x?  //printing any values on console
+  printL: [variable name] [text] [number] [format token]... x?  //printing any values on console and '\n' across all of the values
+  printS: [variable name] [text] [number] [format token]... x?  //printing any values on console and ' ' across all of the values
+  
+  Format tokens:
+    :n - new line
