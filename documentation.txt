@@ -1,9 +1,40 @@
 DOCUMENTATION
+Library adding:
+  #invite /[library name]/
+  
 Object types:
   int
   text
   bool
   any
+  
 Object init:
   [object type] [variable name]
   [object type] [variable name] = [variable value]
+  
+Math activities:
+  ++ increment
+  -- decrement
+  ** square
+  += add  //indev
+  -= take   //indev
+  *= multiply on  //indev
+  
+  + plus  //indev
+  - minus   //indev
+  * multiply  //indev
+  / divide  //indev
+  
+Operators:
+  [i] - get symbol in any variable type
+  
+Loops:
+  loop([repeat count]) {
+    // what to do //
+  }
+  
+Logic operators:  //indev
+  if( condition ) {
+    // what to do //
+  }
+  
